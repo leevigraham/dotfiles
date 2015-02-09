@@ -9,6 +9,7 @@ elif infocmp xterm-256color >/dev/null 2>&1; then
     export TERM=xterm-256color
 fi
 
+eval "$(rbenv init -)";
 
 # Up-front dotfiles configuration
 # Not part of `load_dotfiles` because it must be sourced before anything else
